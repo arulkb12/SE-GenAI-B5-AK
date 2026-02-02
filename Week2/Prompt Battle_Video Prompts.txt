@@ -1,0 +1,932 @@
+Video Prompts:
+
+Scene1: JSON Prompt
+{
+  "task": "video_generation",
+  "aspect_ratio": "16:9",
+  "duration_seconds": 10,
+  "style": "cinematic, naturalistic, culturally authentic",
+  "intent": "Portray the warmth, tradition, and collective joy of a South Indian village family welcoming a newborn boy and preparing for his naming ceremony with the support of the entire community.",
+  "context": {
+    "location": "traditional South Indian village home",
+    "setting_details": [
+      "mud walls",
+      "open courtyard",
+      "wooden pillars",
+      "oil lamps",
+      "daylight filtering through windows"
+    ],
+    "environment": "quiet village atmosphere with close-knit family presence"
+  },
+  "subject": {
+    "primary": "newborn village boy",
+    "secondary": [
+      "mother and father",
+      "elders of the family",
+      "close relatives"
+    ],
+    "symbolism": "hope, continuity of tradition, family lineage"
+  },
+  "scene_sequence": [
+    {
+      "frame_id": 1,
+      "title": "Birth",
+      "description": "Parents gently cradle their newborn boy in the courtyard of their village home.",
+      "shot_type": "medium-close shot",
+      "camera": {
+        "movement": "subtle handheld",
+        "feel": "intimate and gentle"
+      },
+      "actions": [
+        "mother holding the baby close",
+        "father supporting and looking at the child",
+        "soft expressions of relief and warmth"
+      ],
+      "lighting": {
+        "type": "warm natural sunlight",
+        "details": "soft shadows, diffused light"
+      },
+      "emotions": [
+        "warmth",
+        "relief",
+        "quiet happiness"
+      ]
+    },
+    {
+      "frame_id": 2,
+      "title": "Planning",
+      "description": "Parents discuss the upcoming naming ceremony with elders as relatives gather nearby.",
+      "shot_type": "medium-wide shot",
+      "camera": {
+        "movement": "slow, organic pan",
+        "direction": "gradually includes elders and relatives"
+      },
+      "actions": [
+        "elders offering guidance",
+        "parents listening attentively",
+        "relatives exchanging gentle smiles"
+      ],
+      "lighting": {
+        "type": "natural daylight with oil lamp accents",
+        "details": "earthy tones, warm highlights"
+      },
+      "emotions": [
+        "community bonding",
+        "cultural pride",
+        "gentle excitement"
+      ]
+    }
+  ],
+  "transitions": {
+    "type": "cross-dissolve",
+    "meaning": "passage of a day or two",
+    "tempo": "soft and unhurried"
+  },
+  "pacing": {
+    "overall": "slow and steady",
+    "shot_duration": "longer holds on faces and gestures",
+    "rhythm": "moments breathe naturally"
+  },
+  "camera_guidelines": {
+    "allowed": [
+      "slow pans",
+      "gentle handheld motion"
+    ],
+    "avoid": [
+      "dramatic camera moves",
+      "fast cuts",
+      "zoom effects"
+    ]
+  },
+  "visual_guidelines": {
+    "color_palette": [
+      "warm browns",
+      "soft yellows",
+      "muted earth tones"
+    ],
+    "authenticity_focus": true
+  },
+  "constraints": {
+    "avoid_modern_elements": true,
+    "avoid_exaggerated_celebrations": true,
+    "avoid_cluttered_framing": true,
+    "no_text_overlays": true,
+    "no_logos": true
+  },
+  "desired_output": "A calm, intimate cinematic video capturing the emotional transition from birth to family planning for a naming ceremony in a traditional South Indian village setting."
+}
+
+
+
+Scene 2: JSON Prompt
+{
+  "task": "video_generation",
+  "aspect_ratio": "16:9",
+  "duration_seconds": 10,
+  "style": "cinematic, modern, warm, realistic",
+  "intent": "Depict a modern urban South Indian family welcoming their newborn boy and thoughtfully planning a naming ceremony, blending tradition with contemporary life.",
+  "context": {
+    "locations": [
+      {
+        "type": "hospital",
+        "description": "modern city hospital room",
+        "attributes": [
+          "clean interiors",
+          "soft furnishings",
+          "warm accents",
+          "non-sterile atmosphere"
+        ]
+      },
+      {
+        "type": "home",
+        "description": "well-furnished urban apartment",
+        "attributes": [
+          "natural light",
+          "neutral decor",
+          "subtle traditional elements"
+        ]
+      }
+    ]
+  },
+  "subject": {
+    "primary": "newborn city boy",
+    "secondary": [
+      "mother and father",
+      "close family members"
+    ],
+    "symbolism": "aspiration, confidence, modern upbringing"
+  },
+  "scene_sequence": [
+    {
+      "frame_id": 1,
+      "title": "Birth",
+      "description": "Parents stand beside the hospital bed holding their newborn boy with calm confidence.",
+      "shot_type": "clean medium shot",
+      "camera": {
+        "movement": "stable",
+        "framing": "polished and centered"
+      },
+      "actions": [
+        "mother gently cradling the baby",
+        "father standing close with a supportive presence",
+        "shared quiet smiles"
+      ],
+      "lighting": {
+        "type": "soft, bright lighting",
+        "details": "neutral whites, pastel tones, even illumination"
+      },
+      "emotions": [
+        "joy",
+        "calm confidence"
+      ]
+    },
+    {
+      "frame_id": 2,
+      "title": "Planning",
+      "description": "Parents discuss naming ceremony plans with family members in their urban apartment.",
+      "shot_type": "medium-wide shot",
+      "camera": {
+        "movement": "smooth, stabilized",
+        "feel": "composed and intentional"
+      },
+      "actions": [
+        "parents seated together",
+        "family listening and contributing",
+        "subtle use of a phone or documents for planning"
+      ],
+      "lighting": {
+        "type": "soft daylight",
+        "details": "bright interiors with minimal shadows"
+      },
+      "emotions": [
+        "anticipation",
+        "family togetherness",
+        "modern optimism"
+      ]
+    }
+  ],
+  "transitions": {
+    "type": "clean fade",
+    "purpose": "show progression from birth to planning without disruption",
+    "tempo": "smooth and natural"
+  },
+  "pacing": {
+    "overall": "moderate and composed",
+    "comparison": "slightly faster than village scenes but emotionally grounded",
+    "editing_style": "smooth transitions, no fast cuts"
+  },
+  "visual_guidelines": {
+    "color_palette": [
+      "soft whites",
+      "pastel blues",
+      "warm neutrals"
+    ],
+    "aesthetic": "modern warmth"
+  },
+  "camera_guidelines": {
+    "allowed": [
+      "stable shots",
+      "smooth pans"
+    ],
+    "avoid": [
+      "handheld shake",
+      "dramatic moves",
+      "fast cuts"
+    ]
+  },
+  "constraints": {
+    "avoid_cold_hospital_feel": true,
+    "avoid_overuse_of_gadgets": true,
+    "avoid_emotional_exaggeration": true,
+    "avoid_fast_cuts": true,
+    "no_text_overlays": true,
+    "no_logos": true
+  },
+  "desired_output": "A polished, emotionally warm cinematic video that transitions from a modern hospital birth to family planning in an urban home, reflecting contemporary South Indian values."
+}
+
+
+Scene 3: JSON Prompt
+{
+  "task": "video_generation",
+  "aspect_ratio": "16:9",
+  "duration_seconds": 12,
+  "style": "cinematic, naturalistic, emotionally restrained",
+  "intent": "Show a village family’s thoughtful and hopeful decision to send their child to school, emphasizing aspiration, sacrifice, and belief in education.",
+  "context": {
+    "location": "traditional South Indian village",
+    "settings": [
+      {
+        "type": "home",
+        "description": "modest village home with mud walls and simple furnishings",
+        "details": [
+          "open interior",
+          "natural textures",
+          "minimal decor"
+        ]
+      },
+      {
+        "type": "pathway",
+        "description": "quiet village path leading toward a local school",
+        "details": [
+          "trees lining the path",
+          "dirt road",
+          "early morning atmosphere"
+        ]
+      }
+    ]
+  },
+  "subject": {
+    "primary": "village boy",
+    "secondary": [
+      "mother and father",
+      "elders or local teacher"
+    ],
+    "symbolism": "hope, education as opportunity, generational progress"
+  },
+  "scene_sequence": [
+    {
+      "frame_id": 1,
+      "title": "Discussion",
+      "description": "Parents sit with elders or a local teacher, discussing schooling options as the child listens quietly nearby.",
+      "shot_type": "medium-wide shot",
+      "camera": {
+        "movement": "slow, gentle pan",
+        "focus": "gradually includes the child"
+      },
+      "actions": [
+        "parents listening attentively",
+        "elders or teacher offering guidance",
+        "child observing silently"
+      ],
+      "lighting": {
+        "type": "warm natural daylight",
+        "details": "soft shadows, earthy tones"
+      },
+      "emotions": [
+        "hope",
+        "uncertainty",
+        "determination"
+      ],
+      "pacing": "slow and reflective"
+    },
+    {
+      "frame_id": 2,
+      "title": "Going to School",
+      "description": "The boy walks toward school with a small bag as his parents watch from behind.",
+      "shot_type": "medium shot",
+      "camera": {
+        "movement": "slight forward push",
+        "feel": "calm and purposeful"
+      },
+      "actions": [
+        "boy walking steadily",
+        "parents standing together watching",
+        "quiet morning stillness"
+      ],
+      "lighting": {
+        "type": "morning sunlight",
+        "details": "soft glow signaling a new beginning"
+      },
+      "emotions": [
+        "quiet pride",
+        "parental care",
+        "forward-looking hope"
+      ],
+      "pacing": "gentle but forward-moving"
+    }
+  ],
+  "transitions": {
+    "type": "gentle cross-dissolve",
+    "meaning": "passage of days leading to the next morning",
+    "tempo": "unhurried and natural"
+  },
+  "visual_guidelines": {
+    "color_palette": [
+      "warm browns",
+      "soft greens",
+      "muted yellows"
+    ],
+    "lighting_consistency": "warm and natural across scenes"
+  },
+  "camera_guidelines": {
+    "allowed": [
+      "slow pans",
+      "subtle push-forward movements"
+    ],
+    "avoid": [
+      "dramatic camera angles",
+      "fast cuts",
+      "handheld shake"
+    ]
+  },
+  "emotional_guidelines": {
+    "tone": "restrained and sincere",
+    "avoid": [
+      "dramatic arguments",
+      "portraying helplessness",
+      "emotional exaggeration"
+    ]
+  },
+  "constraints": {
+    "avoid_rushed_transitions": true,
+    "avoid_modern_visual_elements": true,
+    "no_text_overlays": true,
+    "no_logos": true
+  },
+  "desired_output": "A calm, emotionally resonant cinematic video portraying a village family’s decision to send their child to school and the hopeful first steps toward education."
+}
+
+
+Scene 4: JSON Prompt
+{
+  "task": "video_generation",
+  "aspect_ratio": "16:9",
+  "duration_seconds": 12,
+  "style": "cinematic, modern, warm, composed",
+  "intent": "Portray a South Indian city family’s structured and informed approach to choosing a school, highlighting modern decision-making and parental ambition.",
+  "context": {
+    "locations": [
+      {
+        "type": "home",
+        "description": "well-furnished modern city apartment",
+        "attributes": [
+          "clean interiors",
+          "natural light",
+          "subtle warmth",
+          "minimalist decor"
+        ]
+      },
+      {
+        "type": "school",
+        "description": "urban street leading to a modern school entrance",
+        "attributes": [
+          "organized surroundings",
+          "welcoming school gate",
+          "morning activity"
+        ]
+      }
+    ]
+  },
+  "subject": {
+    "primary": "city boy",
+    "secondary": [
+      "mother and father"
+    ],
+    "symbolism": "preparedness, ambition, confident future"
+  },
+  "scene_sequence": [
+    {
+      "frame_id": 1,
+      "title": "Discussion",
+      "description": "Parents discuss school options in the evening using brochures or a tablet while the child listens nearby.",
+      "shot_type": "medium-wide shot",
+      "camera": {
+        "movement": "gentle pan",
+        "focus": "gradually includes the child"
+      },
+      "actions": [
+        "parents reviewing brochures or tablet",
+        "calm, focused conversation",
+        "child watching with curiosity"
+      ],
+      "lighting": {
+        "type": "bright, balanced indoor lighting",
+        "details": "neutral whites, soft pastel accents"
+      },
+      "emotions": [
+        "reassurance",
+        "anticipation",
+        "parental confidence"
+      ]
+    },
+    {
+      "frame_id": 2,
+      "title": "Going to School",
+      "description": "The boy walks confidently toward a modern school gate as his parents stand behind, smiling and waving.",
+      "shot_type": "medium shot",
+      "camera": {
+        "movement": "subtle forward follow",
+        "feel": "positive and purposeful"
+      },
+      "actions": [
+        "boy walking with confidence",
+        "parents smiling and waving",
+        "organized morning atmosphere"
+      ],
+      "lighting": {
+        "type": "clear morning daylight",
+        "details": "bright, even illumination"
+      },
+      "emotions": [
+        "excitement",
+        "confidence",
+        "parental pride"
+      ]
+    }
+  ],
+  "transitions": {
+    "type": "clean cut or soft fade",
+    "purpose": "show organized progression from planning to execution",
+    "tempo": "smooth and intentional"
+  },
+  "pacing": {
+    "overall": "moderate and steady",
+    "rhythm": "forward-moving without rush",
+    "editing_style": "smooth transitions, no flashy edits"
+  },
+  "visual_guidelines": {
+    "color_palette": [
+      "soft whites",
+      "pastel blues",
+      "warm neutrals"
+    ],
+    "aesthetic": "modern warmth"
+  },
+  "camera_guidelines": {
+    "allowed": [
+      "stable framing",
+      "gentle pans",
+      "subtle forward motion"
+    ],
+    "avoid": [
+      "dramatic angles",
+      "fast cuts",
+      "flashy camera moves"
+    ]
+  },
+  "emotional_guidelines": {
+    "tone": "confident and composed",
+    "avoid": [
+      "emotional exaggeration",
+      "overly corporate feel"
+    ]
+  },
+  "constraints": {
+    "avoid_cluttered_visuals": true,
+    "avoid_fast_edits": true,
+    "no_text_overlays": true,
+    "no_logos": true
+  },
+  "desired_output": "A clean, modern cinematic video that shows a city family’s thoughtful school selection process and a confident, optimistic first step toward education."
+}
+
+
+Scene 5:
+{
+  "task": "video_generation",
+  "aspect_ratio": "16:9",
+  "duration_seconds": 14,
+  "style": "cinematic, naturalistic, emotionally restrained",
+  "intent": "Show how consistent hard work in a simple village environment shapes a boy’s growth, leading to independence and confidence as he turns 10.",
+  "context": {
+    "location": "South Indian village",
+    "settings": [
+      {
+        "type": "home",
+        "description": "modest village home interior at night",
+        "details": [
+          "simple wooden table",
+          "school books spread out",
+          "oil lamp or dim bulb lighting",
+          "quiet, focused atmosphere"
+        ]
+      },
+      {
+        "type": "outdoor",
+        "description": "village road near fields and houses",
+        "details": [
+          "green fields",
+          "mud or paved village road",
+          "traditional houses",
+          "open morning sky"
+        ]
+      }
+    ]
+  },
+  "subject": {
+    "primary": "village boy",
+    "secondary": [
+      "mother and father (around 40 years old)"
+    ],
+    "symbolism": "discipline, growth, independence, earned confidence"
+  },
+  "scene_sequence": [
+    {
+      "frame_id": 1,
+      "title": "Studying Hard",
+      "description": "The boy studies intensely late at night, fully focused on his books.",
+      "shot_type": "medium-close shot",
+      "camera": {
+        "movement": "slow push-in",
+        "focus": "boy’s concentration and effort"
+      },
+      "actions": [
+        "boy reading and writing carefully",
+        "head bent in deep focus",
+        "pages and notebooks spread out"
+      ],
+      "lighting": {
+        "type": "warm, low light",
+        "source": "lamp",
+        "details": "deep shadows emphasizing effort and struggle"
+      },
+      "emotions": [
+        "determination",
+        "quiet discipline"
+      ],
+      "pacing": "slow and focused"
+    },
+    {
+      "frame_id": 2,
+      "title": "Growing Up",
+      "description": "The now 10-year-old boy rides his bicycle away from home along the village road as his parents watch proudly from behind.",
+      "shot_type": "medium-wide shot",
+      "camera": {
+        "movement": "gentle forward follow",
+        "feel": "confident and hopeful"
+      },
+      "actions": [
+        "boy cycling steadily forward",
+        "parents standing together watching",
+        "subtle smiles of pride"
+      ],
+      "lighting": {
+        "type": "natural morning sunlight",
+        "details": "warm glow, soft highlights, hopeful tone"
+      },
+      "emotions": [
+        "pride",
+        "hope",
+        "quiet happiness"
+      ],
+      "pacing": "slightly faster, forward-moving but calm"
+    }
+  ],
+  "transitions": {
+    "type": "soft dissolve",
+    "meaning": "years passing through effort and discipline",
+    "tempo": "gentle and reflective"
+  },
+  "visual_guidelines": {
+    "color_palette": [
+      "warm browns",
+      "deep ambers",
+      "soft greens",
+      "sunlit yellows"
+    ],
+    "contrast": "higher contrast at night, softer contrast in morning"
+  },
+  "camera_guidelines": {
+    "allowed": [
+      "slow push-ins",
+      "smooth forward motion"
+    ],
+    "avoid": [
+      "fast cuts",
+      "dramatic angles",
+      "handheld shake"
+    ]
+  },
+  "emotional_guidelines": {
+    "tone": "dignified and hopeful",
+    "progression": "determination to pride to hope to quiet happiness",
+    "avoid": [
+      "dramatic expressions",
+      "portraying poverty as misery"
+    ]
+  },
+  "constraints": {
+    "avoid_modern_urban_elements": true,
+    "avoid_fast_edits": true,
+    "no_text_overlays": true,
+    "no_logos": true
+  },
+  "desired_output": "A calm, emotionally resonant cinematic video that shows a village boy’s growth through discipline and effort, culminating in confidence and independence at age 10."
+}
+
+
+Scene 6: JSON prompt
+{
+  "task": "video_generation",
+  "aspect_ratio": "16:9",
+  "duration_seconds": 12,
+  "style": "cinematic, modern, warm, composed",
+  "intent": "Show how structured learning and parental support help a South Indian city boy grow into a confident, independent child.",
+  "context": {
+    "location": "urban South Indian city",
+    "settings": [
+      {
+        "type": "home",
+        "description": "modern city apartment study room",
+        "details": [
+          "organized study desk",
+          "neatly arranged books",
+          "minimal decor",
+          "quiet evening atmosphere"
+        ]
+      },
+      {
+        "type": "outdoor",
+        "description": "urban residential street or park pathway",
+        "details": [
+          "clean walking or cycling path",
+          "trees or apartment buildings",
+          "open morning sky"
+        ]
+      }
+    ]
+  },
+  "subject": {
+    "primary": "South Indian city boy",
+    "secondary": [
+      "mother and father (around 40 years old)"
+    ],
+    "symbolism": "discipline, confidence, independence, parental reassurance"
+  },
+  "scene_sequence": [
+    {
+      "frame_id": 1,
+      "title": "Studying Hard",
+      "description": "The boy studies with focus at his desk, books neatly arranged, fully absorbed in learning.",
+      "shot_type": "medium-close shot",
+      "camera": {
+        "movement": "stable",
+        "framing": "balanced and composed"
+      },
+      "actions": [
+        "boy reading attentively",
+        "writing carefully",
+        "maintaining steady posture"
+      ],
+      "lighting": {
+        "type": "soft, balanced indoor lighting",
+        "details": "neutral tones, even illumination, minimal shadows"
+      },
+      "emotions": [
+        "focus",
+        "discipline"
+      ],
+      "pacing": "moderate and steady"
+    },
+    {
+      "frame_id": 2,
+      "title": "Growing Up",
+      "description": "The now 10-year-old boy rides his bicycle confidently along a clean pathway as his parents watch from a distance.",
+      "shot_type": "medium-wide shot",
+      "camera": {
+        "movement": "smooth forward follow",
+        "feel": "light and energetic"
+      },
+      "actions": [
+        "boy cycling independently",
+        "parents smiling calmly",
+        "safe, organized surroundings"
+      ],
+      "lighting": {
+        "type": "bright natural daylight",
+        "details": "clean highlights, neutral color balance"
+      },
+      "emotions": [
+        "confidence",
+        "pride",
+        "reassurance"
+      ],
+      "pacing": "slightly faster, forward-moving but controlled"
+    }
+  ],
+  "transitions": {
+    "type": "smooth dissolve",
+    "meaning": "growth and time passing from disciplined study to confident independence",
+    "tempo": "natural and unhurried"
+  },
+  "visual_guidelines": {
+    "color_palette": [
+      "soft whites",
+      "warm neutrals",
+      "pastel blues and greens"
+    ],
+    "aesthetic": "modern warmth without corporate coldness"
+  },
+  "camera_guidelines": {
+    "allowed": [
+      "stable framing",
+      "smooth forward motion"
+    ],
+    "avoid": [
+      "dramatic camera moves",
+      "fast cuts",
+      "handheld shake"
+    ]
+  },
+  "emotional_guidelines": {
+    "tone": "calm, confident, reassuring",
+    "progression": "focus to confidence to pride to reassurance",
+    "avoid": [
+      "exaggerated parental reactions",
+      "emotional overstatement"
+    ]
+  },
+  "constraints": {
+    "avoid_cold_corporate_visuals": true,
+    "avoid_rushed_transitions": true,
+    "avoid_cluttered_framing": true,
+    "no_text_overlays": true,
+    "no_logos": true
+  },
+  "desired_output": "A polished, emotionally grounded cinematic video showing a city boy’s growth through structured learning and supportive parenting, culminating in confident independence."
+}
+
+
+Scene 7: Frames to Video prompt
+
+Convert this into video with below prompt
+To visually contrast two parental decisions during college admissions—one guided by merit and perseverance, the other by privilege and financial power—without judgment, letting the audience reflect on choice and consequence.
+
+Two college admission environments shown side by side on a single 16:9 screen:
+
+Left frame: Government or merit-based university admission office
+
+Right frame: Private, high-end university admission office
+
+Both scenes happen simultaneously in parallel time.
+The boys and their fathers during the admission process.
+Primary focus is on the fathers making decisions and the boys observing silently.
+Split-screen composition (50/50 vertical split)
+
+Left (Boy 1 – Merit):
+Medium-wide shot of father and son standing in a queue or at a simple desk, submitting documents
+
+Right (Boy 2 – Donation):
+Medium-wide shot of father and son seated across a polished desk, discussing payment
+
+Camera remains static and balanced to emphasize comparison and equality of framing.
+Both actions unfold in real-time parallel motion.
+Subtle synchronized gestures (document handover vs cheque/payment confirmation) reinforce contrast without cuts.
+Left frame: Neutral to warm lighting, natural daylight, soft shadows
+
+Right frame: Bright, cool, premium lighting, evenly lit interiors
+Lighting contrast supports narrative but avoids exaggeration.
+
+Quiet pride and humility on the merit side
+Calm confidence and authority on the donation side
+Boys show mixed emotions—acceptance, silence, contemplation
+Overall feeling: reflective, thoughtful, grounded.
+
+Slow, deliberate pacing.
+Allow actions to complete fully in both frames without rushing.
+No dramatic beats—let realism carry the weight.
+
+Avoid villainizing either father
+Avoid exaggerated wealth or hardship
+Avoid fast cuts or camera movement
+Avoid text overlays or moral statements
+Let visuals speak, not commentary
+
+End the scene with both frames holding for a moment:
+Left: receipt stamped
+Right: payment acknowledged
+Then fade both simultaneously.
+
+Scene 8: Frames to video Prompt
+
+Create a video with the below prompt under 16:9 aspect ratio
+
+To show that despite different paths and privileges, merit leads both boys to the same achievement—graduation and entry into a global tech company—highlighting dignity, pride, and shared success.
+
+Two timelines shown side by side on a single 16:9 screen:
+Phase 1: College graduation ceremony
+Phase 2: First day at Amazon office
+Left side represents the village boy’s journey, right side the city boy’s journey.
+
+The boys are the heroes.
+Parents appear as supporting characters during graduation; the boys alone dominate the office scene.
+
+Split-screen vertical layout (50/50):
+Phase 1 – Graduation (first half of the video):
+Medium-wide shot
+Boys in graduation attire standing with parents
+Parents slightly behind, hands on shoulders
+Camera at chest level, steady and respectful
+
+Phase 2 – Amazon Office (second half of the video):
+Low-angle medium-wide shot
+Boys standing alone in front of the same Amazon building
+Camera slowly tilts upward following their gaze
+No camera movement between left and right frames to maintain parity.
+
+Smooth transition from graduation day → next morning (first day of office)
+Both sides transition simultaneously to maintain parallel storytelling
+
+No flashbacks or time jumps beyond this single progression
+Graduation: Warm daylight, celebratory, soft highlights
+Amazon office: Bright morning light, crisp shadows, clean reflections
+Lighting is consistent across both frames, with slight attire-based contrast only.
+
+Graduation: Pride, relief, fulfillment, parental joy
+Office scene: Hope, ambition, quiet confidence, awe
+Overall emotion: “We made it.”
+
+Moderate and steady.
+Let smiles linger during graduation photos.
+Pause briefly as both boys look up at the Amazon building to let the moment breathe.
+Avoid showing company interiors or logos too prominently
+Avoid exaggerating wealth or background differences
+Avoid dramatic music cues or fast cuts
+Avoid text overlays, titles, or moral statements
+
+Scene 9: Frames to Video prompt
+
+Create a video in a 16:9 aspect ratio
+
+To reveal that despite different backgrounds and paths, both boys share not only the same destination but also the same identity—symbolizing equality, shared destiny, and human connection beyond circumstance.
+
+Outside the Amazon office building entrance, moments after their first-day arrival, in a calm corporate campus environment.
+
+Both boys together.
+Their expressions, handshake, and spoken names are the emotional core of the scene.
+
+Camera – How it’s seen
+Medium shot, eye-level camera
+Both boys facing each other, centered in frame
+Amazon building softly blurred in the background
+Camera remains steady, no movement
+
+Present moment, real-time
+Short pause before dialogue
+Dialogue exchange happens slowly and clearly
+
+Ends with a gentle fade to white
+Light – Visual rules
+Soft daylight, evenly lighting both faces
+No harsh shadows
+
+As the handshake completes, brightness subtly increases, transitioning into a full white screen
+
+Emotions – What to feel
+Warm surprise
+Shared joy
+Human connection
+
+Quiet realization
+Audience should feel a soft smile, not a dramatic shock.
+
+Slow and intentional.
+Allow pauses between smiles, dialogue, and handshake.
+Fade-out happens gradually, not abruptly.
+
+Avoid background noise overpowering dialogue
+Avoid dramatic music swell
+Avoid zooms or camera shake
+Avoid on-screen text or subtitles
+Avoid logos dominating the frame
+
+Dialogue (Natural, Minimal)
+Village Boy (smiling):
+“En per Yalhan.”
+City Boy (pleasantly surprised, smiling wider):
+“My name is also Yalhan.”
+They shake hands.
+
+
+Finally all the scenes are combined using Clipchamp with few transitions and message. 
